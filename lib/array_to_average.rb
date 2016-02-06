@@ -1,5 +1,5 @@
 require "array_to_average/version"
 
 module ArrayToAverage
-  # Your code goes here...
+  autoload :Calculate, 'array_to_average/calculate'
 end
